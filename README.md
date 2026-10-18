@@ -9,6 +9,7 @@ CPU and GPU temperatures, memory, swap and uptime. Three skins: Default,
 Column and Minimalistic.
 
 Project page: https://github.com/krumbinet/plasma-simplemonitor6 – bug reports and pull requests welcome.
+KDE Store: https://store.kde.org/p/2379522
 
 This is a port of [plasma-simpleMonitor](https://github.com/dhabyx/plasma-simpleMonitor)
 by Dhaby Xiloj and Konstantin Shtepa (Plasma 5) to **Plasma 6**.
@@ -57,7 +58,17 @@ For building: `zip`, `gettext` (`msgfmt`) and `python3`.
 Installation
 ------------
 
-From the sources, for the current user, no root needed:
+### The easy way: KDE Store
+
+Right click on the desktop → *Add or Manage Widgets* → *Get New Widgets…* →
+*Download New Plasma Widgets* → search for **Simple System Monitor** → *Install*.
+
+Or download the `.plasmoid` file from the [KDE Store](https://store.kde.org/p/2379522) or the
+[GitHub releases](https://github.com/krumbinet/plasma-simplemonitor6/releases).
+
+### From the sources
+
+For the current user, no root needed:
 
 ```sh
 git clone https://github.com/krumbinet/plasma-simplemonitor6 plasma-simplemonitor6
@@ -132,6 +143,7 @@ CPU- und GPU-Temperaturen, Arbeitsspeicher, Swap und Laufzeit. Drei Skins:
 Standard, Spalte und Minimalistisch.
 
 Projektseite: https://github.com/krumbinet/plasma-simplemonitor6 – Fehlerberichte und Pull Requests sind willkommen.
+KDE Store: https://store.kde.org/p/2379522
 
 Dies ist die Portierung von [plasma-simpleMonitor](https://github.com/dhabyx/plasma-simpleMonitor)
 von Dhaby Xiloj und Konstantin Shtepa (Plasma 5) auf **Plasma 6**.
@@ -168,7 +180,18 @@ Voraussetzungen
 Installation
 ------------
 
-Aus dem Quellcode, nur für den eigenen Benutzer, ohne root:
+### Der einfache Weg: KDE Store
+
+Rechtsklick auf den Desktop → *Miniprogramme hinzufügen oder verwalten* →
+*Neue Miniprogramme holen …* → *Neue Plasma-Miniprogramme herunterladen* →
+nach **Simple System Monitor** suchen → *Installieren*.
+
+Oder die `.plasmoid`-Datei aus dem [KDE Store](https://store.kde.org/p/2379522) bzw. den
+[GitHub-Releases](https://github.com/krumbinet/plasma-simplemonitor6/releases) laden.
+
+### Aus dem Quellcode
+
+Nur für den eigenen Benutzer, ohne root:
 
 ```sh
 git clone https://github.com/krumbinet/plasma-simplemonitor6 plasma-simplemonitor6
