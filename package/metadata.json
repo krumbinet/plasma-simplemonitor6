@@ -1,0 +1,41 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Dhaby Xiloj (DhabyX)",
+                "Email": "slack.dhabyx@gmail.com"
+            },
+            {
+                "Name": "Konstantin Shtepa",
+                "Email": "oss.konstantin.shtepa@yandex.ru"
+            },
+            {
+                "Name": "krumbinet (Plasma 6 port)",
+                "Webpage": "https://github.com/krumbinet"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Simple system monitor: clock, CPU load, temperatures, memory and swap",
+        "Description[de]": "Einfacher Systemmonitor: Uhr, CPU-Last, Temperaturen, Arbeitsspeicher und Swap",
+        "Description[es]": "Monitor de sistema simple para Plasma",
+        "Description[ru]": "Простой системный монитор-плазмоид",
+        "Description[tr]": "Sistem Durumu Görüntüleyici",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "desktop"
+        ],
+        "Icon": "utilities-system-monitor",
+        "Id": "io.github.krumbinet.simplemonitor",
+        "License": "GPL-3.0-or-later",
+        "Name": "Simple System Monitor",
+        "Name[de]": "Einfacher Systemmonitor",
+        "Name[es]": "Monitor de sistema simple",
+        "Name[ru]": "Простой системный монитор",
+        "Name[tr]": "Sistem Görüntüleyici",
+        "Version": "0.7.1",
+        "Website": "https://github.com/krumbinet/plasma-simplemonitor6",
+        "BugReportUrl": "https://github.com/krumbinet/plasma-simplemonitor6/issues"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -1,0 +1,338 @@
+# plasma-simpleMonitor translation template.
+# Copyright (C) 2013-2016 Dhaby Xiloj, Konstantin Shtepa; 2026 Plasma 6 port contributors
+# This file is distributed under the same license as the plasma-simpleMonitor package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-simpleMonitor 0.7.0\n"
+"Report-Msgid-Bugs-To: https://github.com/krumbinet/plasma-simplemonitor6/"
+"issues\n"
+"POT-Creation-Date: 2026-10-18 21:08+0200\n"
+"PO-Revision-Date: 2026-10-18 19:31+0200\n"
+"Last-Translator: Simple Monitor Plasma 6 port contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../package/contents/config/config.qml:14
+#, kde-format
+msgid "General"
+msgstr "Allgemein"
+
+#: ../package/contents/config/config.qml:19
+#, kde-format
+msgid "Skins"
+msgstr "Skins"
+
+#: ../package/contents/config/config.qml:24
+#, kde-format
+msgid "Miscellaneous"
+msgstr "Sonstiges"
+
+#: ../package/contents/ui/SystemData.qml:110
+#, kde-format
+msgid "GPU:"
+msgstr "GPU:"
+
+#: ../package/contents/ui/SystemData.qml:110
+#, kde-format
+msgid "GPU %1:"
+msgstr "GPU %1:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:41
+#, kde-format
+msgid "Logo:"
+msgstr "Logo:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Tux"
+msgstr "Tux"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Slackware"
+msgstr "Slackware"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Kubuntu"
+msgstr "Kubuntu"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "OpenSUSE"
+msgstr "openSUSE"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "Manjaro"
+msgstr "Manjaro"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "Arch"
+msgstr "Arch"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "Fedora"
+msgstr "Fedora"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "Debian"
+msgstr "Debian"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:55
+#, kde-format
+msgid ""
+"Automatic uses the logo of your distribution. If there is no matching built-"
+"in logo, the logo provided by the system is shown."
+msgstr ""
+"Automatisch verwendet das Logo deiner Distribution. Gibt es kein passendes "
+"eingebautes Logo, wird das Logo des Systems angezeigt."
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:67
+#, kde-format
+msgid "Background color:"
+msgstr "Hintergrund:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:69
+#, kde-format
+msgid "Standard"
+msgstr "Standard"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:75
+#, kde-format
+msgid "Crystal"
+msgstr "Durchsichtig"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:81
+#, kde-format
+msgid "Translucent"
+msgstr "Halbtransparent"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:90
+#, kde-format
+msgid "Show:"
+msgstr "Anzeigen:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:91
+#, kde-format
+msgid "GPU Temperature"
+msgstr "GPU-Temperatur"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:95
+#, kde-format
+msgid "Swap"
+msgstr "Auslagerungsspeicher (Swap)"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:99
+#, kde-format
+msgid "Uptime"
+msgstr "Laufzeit"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:104
+#, kde-format
+msgid "Temperature settings:"
+msgstr "Temperatur-Einstellungen:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:110
+#, kde-format
+msgid "Temperature units:"
+msgstr "Temperatureinheit:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:112
+#, kde-format
+msgid "Celsius °C"
+msgstr "Celsius °C"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:118
+#, kde-format
+msgid "Fahrenheit °F"
+msgstr "Fahrenheit °F"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:125
+#, kde-format
+msgid "CPU temperature:"
+msgstr "CPU-Temperatur:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:126
+#, kde-format
+msgid "Every core"
+msgstr "Jeder Kern einzeln"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:126
+#, kde-format
+msgid "Average only"
+msgstr "Nur Durchschnitt"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:126
+#, kde-format
+msgid "Maximum only"
+msgstr "Nur Höchstwert"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:131
+#, kde-format
+msgid "CPU High Temperature:"
+msgstr "CPU-Temperatur hoch ab:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:140
+#, kde-format
+msgid "CPU Critical Temperature:"
+msgstr "CPU-Temperatur kritisch ab:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:148
+#, kde-format
+msgid ""
+"Thresholds are always given in °C. The command <b>sensors</b> shows the "
+"limits of your hardware (\"high\" and \"crit\")."
+msgstr ""
+"Grenzwerte werden immer in °C angegeben. Der Befehl <b>sensors</b> zeigt die "
+"Grenzwerte deiner Hardware („high“ und „crit“)."
+
+#: ../package/contents/ui/config/ConfigMisc.qml:26
+#, kde-format
+msgid "CPU load indicator style:"
+msgstr "Stil der CPU-Lastanzeige:"
+
+#: ../package/contents/ui/config/ConfigMisc.qml:27
+#, kde-format
+msgid "Colored"
+msgstr "Farbig"
+
+#: ../package/contents/ui/config/ConfigMisc.qml:31
+#, kde-format
+msgid "Flat"
+msgstr "Flach"
+
+#: ../package/contents/ui/config/ConfigMisc.qml:36
+#, kde-format
+msgid "CPU load indicator height:"
+msgstr "Höhe der Lastbalken:"
+
+#: ../package/contents/ui/config/ConfigMisc.qml:46
+#, kde-format
+msgid "Update interval:"
+msgstr "Aktualisierungsintervall:"
+
+#: ../package/contents/ui/config/ConfigMisc.qml:52
+#, kde-format
+msgctxt "Abbreviation for seconds"
+msgid "s"
+msgstr "s"
+
+#: ../package/contents/ui/config/ConfigSkins.qml:25
+#, kde-format
+msgid "Skin:"
+msgstr "Skin:"
+
+#: ../package/contents/ui/config/ConfigSkins.qml:26
+#, kde-format
+msgid "Default"
+msgstr "Standard"
+
+#: ../package/contents/ui/config/ConfigSkins.qml:26
+#, kde-format
+msgid "Column"
+msgstr "Spalte"
+
+#: ../package/contents/ui/config/ConfigSkins.qml:26
+#, kde-format
+msgid "Minimalistic"
+msgstr "Minimalistisch"
+
+#: ../package/contents/ui/config/ConfigSkins.qml:30
+#, kde-format
+msgid "Preview:"
+msgstr "Vorschau:"
+
+#: ../package/contents/ui/main.qml:35
+#, kde-format
+msgid "Lock image scaling"
+msgstr "Logo-Größe fixieren"
+
+#: ../package/contents/ui/main.qml:35
+#, kde-format
+msgid "Unlock image scaling"
+msgstr "Logo-Größe ändern"
+
+#: ../package/contents/ui/monitorWidgets/AverageCPU.qml:41
+#: ../package/contents/ui/monitorWidgets/CoreTempList.qml:59
+#, kde-format
+msgid "CPU:"
+msgstr "CPU:"
+
+#: ../package/contents/ui/monitorWidgets/AverageCPU.qml:46
+#, kde-format
+msgid "%1%"
+msgstr "%1 %"
+
+#: ../package/contents/ui/monitorWidgets/CoreTempList.qml:45
+#, kde-format
+msgid "Core %1:"
+msgstr "Kern %1:"
+
+#: ../package/contents/ui/monitorWidgets/CoreTempList.qml:59
+#, kde-format
+msgid "CPU max:"
+msgstr "CPU max.:"
+
+#: ../package/contents/ui/monitorWidgets/CpuWidget.qml:55
+#, kde-format
+msgid "CPU %1:"
+msgstr "CPU %1:"
+
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:39
+#, kde-format
+msgid "Mem:"
+msgstr "RAM:"
+
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:44
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:60
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:70
+#, kde-format
+msgid "%1 GiB"
+msgstr "%1 GiB"
+
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:55
+#, kde-format
+msgid "Used:"
+msgstr "Belegt:"
+
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:65
+#, kde-format
+msgid "Free:"
+msgstr "Frei:"
+
+#: ../package/contents/ui/monitorWidgets/UptimePicker.qml:23
+#, kde-format
+msgid "Uptime:"
+msgstr "Laufzeit:"
+
+#: ../package/contents/ui/monitorWidgets/UptimePicker.qml:28
+#, kde-format
+msgid "%1d %2:%3"
+msgstr "%1 T %2:%3"
+
+#: ../package/contents/ui/skins/ColumnSkin.qml:188
+#: ../package/contents/ui/skins/DefaultSkin.qml:214
+#: ../package/contents/ui/skins/MinimalisticSkin.qml:128
+#, kde-format
+msgid "Swap:"
+msgstr "Swap:"

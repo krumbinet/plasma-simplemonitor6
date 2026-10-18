@@ -1,10 +1,7 @@
 #!/bin/sh
-
-cd "${0%/*}"
-
-# Remove the Simple System Monitor plasmoid.
-plasmapkg2 -r ./plasmoid > /dev/null
-
-# Remove the Simple System Monitor icon.
-ICON_PATH=${HOME}/.local/share/icons/hicolor/scalable/apps/
-rm -f ${ICON_PATH}/simpleMonitor_icon.svg
+# SPDX-FileCopyrightText: 2026 krumbinet and Simple Monitor Plasma 6 port contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+set -e
+cd "$(dirname "$0")"
+ID=$(python3 -c "import json;print(json.load(open('package/metadata.json'))['KPlugin']['Id'])")
+kpackagetool6 -t Plasma/Applet -r "$ID"

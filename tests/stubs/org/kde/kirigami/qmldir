@@ -1,0 +1,5 @@
+module org.kde.kirigami
+Icon 1.0 Icon.qml
+FormLayout 1.0 FormLayout.qml
+singleton Units 1.0 Units.qml
+singleton Theme 1.0 Theme.qml

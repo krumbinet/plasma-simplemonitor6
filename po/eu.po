@@ -1,0 +1,351 @@
+# plasma-simpleMonitor language translation file.
+# Copyright (C) 2013-2016 Dhaby Xiloj, Konstantin Shtepa
+# This file is distributed under the same license as the plasma-simpleMonitor package.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.6\n"
+"Report-Msgid-Bugs-To: https://github.com/krumbinet/plasma-simplemonitor6/"
+"issues\n"
+"POT-Creation-Date: 2026-10-18 21:08+0200\n"
+"PO-Revision-Date: 2020-04-05 13:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../package/contents/config/config.qml:14
+#, kde-format
+msgid "General"
+msgstr "Orokorra"
+
+#: ../package/contents/config/config.qml:19
+#, kde-format
+msgid "Skins"
+msgstr "Larruak"
+
+#: ../package/contents/config/config.qml:24
+#, kde-format
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../package/contents/ui/SystemData.qml:110
+#, kde-format
+msgid "GPU:"
+msgstr ""
+
+#: ../package/contents/ui/SystemData.qml:110
+#, fuzzy, kde-format
+msgid "GPU %1:"
+msgstr "CPU %1:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:41
+#, kde-format
+msgid "Logo:"
+msgstr "Logoa:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Automatic"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Tux"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Slackware"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Ubuntu"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:42
+#, kde-format
+msgid "Kubuntu"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "OpenSUSE"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "Manjaro"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "Arch"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "Fedora"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:43
+#, kde-format
+msgid "Debian"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:55
+#, kde-format
+msgid ""
+"Automatic uses the logo of your distribution. If there is no matching built-"
+"in logo, the logo provided by the system is shown."
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:67
+#, kde-format
+msgid "Background color:"
+msgstr "Atzekaldeko kolorea:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:69
+#, kde-format
+msgid "Standard"
+msgstr "Estandarra"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:75
+#, kde-format
+msgid "Crystal"
+msgstr "Kristala"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:81
+#, kde-format
+msgid "Translucent"
+msgstr "Zeharrargia"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:90
+#, kde-format
+msgid "Show:"
+msgstr "Erakutsi:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:91
+#, fuzzy, kde-format
+msgid "GPU Temperature"
+msgstr "CPU tenperatura altua:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:95
+#, kde-format
+msgid "Swap"
+msgstr "Swap"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:99
+#, kde-format
+msgid "Uptime"
+msgstr "Jardun"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:104
+#, fuzzy, kde-format
+msgid "Temperature settings:"
+msgstr "Temp konfigurazioa:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:110
+#, kde-format
+msgid "Temperature units:"
+msgstr "Temperatura unitateak:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:112
+#, kde-format
+msgid "Celsius °C"
+msgstr "Celsius °C"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:118
+#, kde-format
+msgid "Fahrenheit °F"
+msgstr "Fahrenheit °F"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:125
+#, fuzzy, kde-format
+msgid "CPU temperature:"
+msgstr "CPU tenperatura altua:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:126
+#, kde-format
+msgid "Every core"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:126
+#, kde-format
+msgid "Average only"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:126
+#, kde-format
+msgid "Maximum only"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:131
+#, kde-format
+msgid "CPU High Temperature:"
+msgstr "CPU tenperatura altua:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:140
+#, kde-format
+msgid "CPU Critical Temperature:"
+msgstr "CPU tenperatura kritikoa:"
+
+#: ../package/contents/ui/config/ConfigGeneral.qml:148
+#, kde-format
+msgid ""
+"Thresholds are always given in °C. The command <b>sensors</b> shows the "
+"limits of your hardware (\"high\" and \"crit\")."
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigMisc.qml:26
+#, kde-format
+msgid "CPU load indicator style:"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigMisc.qml:27
+#, kde-format
+msgid "Colored"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigMisc.qml:31
+#, kde-format
+msgid "Flat"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigMisc.qml:36
+#, kde-format
+msgid "CPU load indicator height:"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigMisc.qml:46
+#, kde-format
+msgid "Update interval:"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigMisc.qml:52
+#, kde-format
+msgctxt "Abbreviation for seconds"
+msgid "s"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigSkins.qml:25
+#, kde-format
+msgid "Skin:"
+msgstr "Larrua:"
+
+#: ../package/contents/ui/config/ConfigSkins.qml:26
+#, kde-format
+msgid "Default"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigSkins.qml:26
+#, kde-format
+msgid "Column"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigSkins.qml:26
+#, kde-format
+msgid "Minimalistic"
+msgstr ""
+
+#: ../package/contents/ui/config/ConfigSkins.qml:30
+#, fuzzy, kde-format
+msgid "Preview:"
+msgstr "aurre-ikusi:"
+
+#: ../package/contents/ui/main.qml:35
+#, kde-format
+msgid "Lock image scaling"
+msgstr "Blokeatu irudien eskala"
+
+#: ../package/contents/ui/main.qml:35
+#, kde-format
+msgid "Unlock image scaling"
+msgstr "Desblokeatu irudien eskala"
+
+#: ../package/contents/ui/monitorWidgets/AverageCPU.qml:41
+#: ../package/contents/ui/monitorWidgets/CoreTempList.qml:59
+#, kde-format
+msgid "CPU:"
+msgstr ""
+
+#: ../package/contents/ui/monitorWidgets/AverageCPU.qml:46
+#, kde-format
+msgid "%1%"
+msgstr ""
+
+#: ../package/contents/ui/monitorWidgets/CoreTempList.qml:45
+#, kde-format
+msgid "Core %1:"
+msgstr "Core %1:"
+
+#: ../package/contents/ui/monitorWidgets/CoreTempList.qml:59
+#, fuzzy, kde-format
+msgid "CPU max:"
+msgstr "CPU %1:"
+
+#: ../package/contents/ui/monitorWidgets/CpuWidget.qml:55
+#, kde-format
+msgid "CPU %1:"
+msgstr "CPU %1:"
+
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:39
+#, kde-format
+msgid "Mem:"
+msgstr "Mem:"
+
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:44
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:60
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:70
+#, kde-format
+msgid "%1 GiB"
+msgstr "%1 GiB"
+
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:55
+#, kde-format
+msgid "Used:"
+msgstr "Erabilita:"
+
+#: ../package/contents/ui/monitorWidgets/MemArea.qml:65
+#, kde-format
+msgid "Free:"
+msgstr "Libre:"
+
+#: ../package/contents/ui/monitorWidgets/UptimePicker.qml:23
+#, kde-format
+msgid "Uptime:"
+msgstr "Jardun:"
+
+#: ../package/contents/ui/monitorWidgets/UptimePicker.qml:28
+#, kde-format
+msgid "%1d %2:%3"
+msgstr "%1d %2:%3"
+
+#: ../package/contents/ui/skins/ColumnSkin.qml:188
+#: ../package/contents/ui/skins/DefaultSkin.qml:214
+#: ../package/contents/ui/skins/MinimalisticSkin.qml:128
+#, kde-format
+msgid "Swap:"
+msgstr "Swap:"
+
+#~ msgid "Parts settings:"
+#~ msgstr "Piezen konfigurazioa:"
+
+#~ msgid ""
+#~ "<i>(You can use the <strong>sensors</strong> command to place the "
+#~ "appropriate values ​​for this section.)</i>"
+#~ msgstr ""
+#~ "<i> (<strong> Sensors </strong> komandoa erabil dezakezu atal honetan "
+#~ "balio egokiak jartzeko.) </i>"
+
+#~ msgid "mie"
+#~ msgstr "az."
+
+#~ msgid "dic"
+#~ msgstr "urt"

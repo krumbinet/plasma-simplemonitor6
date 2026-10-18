@@ -1,95 +1,49 @@
-# plasma-simpleMonitor Change Log
-All notable changes to this project will be documented in this file.
-
+# Change Log
+All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [Unreleased] - 2017-xx-xx
-    ### Added
-    - Turkish translation.
+## [0.7.1] - 2026-10-18
+First public release.
 
-## [Unreleased] - 2017-xx-xx
-    ### Added
-    - Chinese(simplified) translation.
-    - Polish translation.
+### Changed
+- Final plugin ID `io.github.krumbinet.simplemonitor`, project page
+  https://github.com/krumbinet/plasma-simplemonitor6
 
-    ### Fixed
-    - Plasmoid logo path in .desktop file.
+## [0.7.0] - 2026-10-18 (not published)
+First release for KDE Plasma 6 (port of plasma-simpleMonitor 0.6.x).
+
+### Changed
+- Ported to Plasma 6 / Qt 6: `metadata.json`, `PlasmoidItem`, Qt 6 imports.
+- Sensor data now comes from `ksystemstats` (`org.kde.ksysguard.sensors`)
+  instead of the removed `systemmonitor` data engine.
+- Memory "used" is the application memory reported by ksystemstats
+  (same meaning as before: used minus buffers and cache).
+- Distribution and kernel information come from the sensor system instead of
+  reading `/etc/os-release` and `/proc/version` (blocked in Qt 6 QML).
+- GPU temperatures for all GPUs known to ksystemstats (NVIDIA, AMD, Intel)
+  instead of calling `nvidia-smi`, `aticonfig` and `amdconfig`.
+- Settings pages rebuilt with Kirigami FormLayout and QtQuick Controls 2.
+- Logo scaling is toggled from the widget's context menu.
+- Plugin ID changed to `io.github.krumbinet.simplemonitor`, translation files
+  moved to `po/<lang>.po` and are compiled into the package.
+- Default warning thresholds raised to 70 °C (high) and 85 °C (critical).
+
+### Added
+- Option to show CPU temperature per core, as average or as maximum.
+- Fallback to the logo icon shipped by the distribution, then Tux.
+- Minimalistic skin selectable in the settings, new skin previews.
+- Debian logo selectable in the settings.
+- German translation.
+- `build.sh`, `install.sh`, `uninstall.sh`, `test.sh`.
+
+### Fixed
+- Broken layouts in the Default and Column skins of the last master
+  (nested temperature lists, invalid properties).
+- Average CPU temperature colouring used high/critical the wrong way round.
+
+### Removed
+- Hardware specific code for coretemp/k10temp/atk sensors.
+- CMake build (the widget is pure QML; translations are built by `build.sh`).
 
 ## [0.6] - 2017-03-19
-    ### Added
-    - Translation support.
-    - ru translation.
-    - SVG logo scaling.
-    - Base support for RightToLeft view.
-    - Logos for Fedora, Manjaro and Arch.
-    - CMake support.
-    - CMake installation instructions in README.
-    - Script to cleanup after launch.sh.
-    - CHANGELOG.
-
-    ### Changed
-    - SVG logos replaced PNG logos.
-
-    ### Fixed
-    - Plasmoid name and version in .desktop file.
-    - Items positions.
-
-    ## Removed
-    - Tuz logo.
-
-## [0.6-rc1] - 2017-02-07
-    ### Added
-    - Plasma 5 support.
-    - Instructions for installation in README.
-    - GPL LICENCE.
-    - Skin support.
-    - Column skin.
-    - OpenSUSE logo.
-    - Launch script to test plasmoids without install.
-
-    ### Changed
-    - Migrated from KDE4 to KF5.
-    - Structure of project.
-    - Migrated in development from .qmlproject to .pro file.
-    - Config now base on .qml files.
-    - QML now depend on quick 2.
-    - Predefined CPU temperatures.
-
-    ### Fixed
-    - Additional plasmoid don't work with database.
-
-    ## Removed
-    - Plasma(KDE4) support.
-
-## [0.5] - 2014-05-26
-    ### Added
-    - Fahrenheit support.
-    - Visual improvements.
-    - Plasma style support.
-
-    ### Changed
-    - LoadBar completed.
-
-## [0.4] - 2013-12-28
-    ### Fixed
-    - Elements alignments.
-    - Bad uptime.
-
-## [0.3] - 2013-12-28
-    ### Added
-    - Background settings.
-    - Logos for Kubuntu, Ubuntu and tuz.
-    ### Changed
-    - Detection of distro name.
-
-    ### Fixed
-    - Fonts.
-
-## [0.2] - 2013-12-27
-    ### Added
-    - AMD K7 support for lmsensors.
-    - Temperature settings.
-    - README.
-
-## [0.1] - 2013-12-27
-    - Initial Commit.
+See the history of https://github.com/dhabyx/plasma-simpleMonitor
